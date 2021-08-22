@@ -1,0 +1,38 @@
+[
+    {
+        "id": 1,
+        "question": "En que año se independizó Perú?",
+        "a": "1921",
+        "b": "1821",
+        "c": "1221",
+        "d": "1765",
+        "correct": "b"
+    },
+    {
+        "id": 2,
+        "question": "Cuantos departamentos hay?",
+        "a": "24",
+        "b": "50",
+        "c": "23 (Arequipa es una ciudad independiente)",
+        "d": "21",
+        "correct": "a"
+    },
+    {
+        "id": 3,
+        "question": "Quién fue el presidente en el año 2014?",
+        "a": "Alejandro Toledo",
+        "b": "Chibolín",
+        "c": "Martín Vizcarra",
+        "d": "Alan García",
+        "correct": "c"
+    },
+    {
+        "id": 4,
+        "question": "Cuantas regiones tiene el país?",
+        "a": "4",
+        "b": "2",
+        "c": "1",
+        "d": "3",
+        "correct": "d"
+    }
+]

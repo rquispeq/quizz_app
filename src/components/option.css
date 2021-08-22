@@ -1,0 +1,14 @@
+ul li{
+    margin: 1rem 0;
+    font-size: 1.1rem;
+}
+
+ul{
+    list-style-type: none;
+    padding: 0;
+}
+
+label{
+    cursor: pointer;
+    margin-left: 1rem;
+}

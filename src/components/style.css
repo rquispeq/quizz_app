@@ -1,0 +1,23 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+#root{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #F3F3FB;
+}
+
+.container{
+    padding: 4rem;
+    background-color: #fff;
+    width: 600px;
+    border-radius: 10px 10px 0px 0px;
+    box-shadow: 0 0 15px 2px rgba(100,100,100,.2);
+    max-width: 100%;
+}

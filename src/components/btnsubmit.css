@@ -1,0 +1,21 @@
+button{
+    background-color: #8e44ad;
+    display:block;
+    color: white;
+    padding: 1.3rem;
+    font-family: inherit;
+    border: none;
+    width: 100%;
+    font-size: 1.2rem;
+    cursor: pointer;
+    outline: none;
+    border-radius: 0px 0px 10px 10px;
+}
+
+button:hover{
+    background-color: #742a94;
+}
+
+button:active{
+    background-color: #5a1a75;
+}
