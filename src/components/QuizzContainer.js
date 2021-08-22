@@ -72,17 +72,15 @@ const Quizz_container = () => {
         <div>
             <div className="container">
                 <Question question_name={title}/>
-                <ul>
                     { error && <Error/>}
                     { !quizzFinished &&
-                        <>
-                        <Option option_text={quizz.a} id="a" key="a" />
-                        <Option option_text={quizz.b} id="b" key="b" />
-                        <Option option_text={quizz.c} id="c" key="c" />
-                        <Option option_text={quizz.d} id="d" key="d" />
-                        </>
+                        <ul>
+                            <Option option_text={quizz.a} id="a" key="a" />
+                            <Option option_text={quizz.b} id="b" key="b" />
+                            <Option option_text={quizz.c} id="c" key="c" />
+                            <Option option_text={quizz.d} id="d" key="d" />
+                        </ul>
                     }
-                </ul>
             </div>
             <BtnSubmit fnNext={!quizzFinished ? ValidateAnswer : reloadPage } text={!quizzFinished ? 'Siguiente' : 'Recargar' } />
         </div>
